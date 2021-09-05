@@ -1,0 +1,61 @@
+{
+  "name": "web-client",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "^14.17.5"
+  },
+  "scripts": {
+    "dev": "npm-run-all -p next-dev watch:jest",
+    "next-dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx --resolve-plugins-relative-to .",
+    "prettier": "prettier --write --check .",
+    "lint-staged": "lint-staged",
+    "tsc": "tsc --noEmit",
+    "watch:jest": "jest --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@web/components": "workspace:*",
+    "next": "11.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.84",
+    "@swc/jest": "^0.2.2",
+    "@testing-library/react": "^12.0.0",
+    "@types/eslint": "^7.2.13",
+    "@types/jest": "^27.0.0",
+    "@types/prettier": "^2.3.2",
+    "@types/react": "17.0.17",
+    "@types/tailwindcss": "^2.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "autoprefixer": "^10.3.2",
+    "babel-jest": "^27.0.6",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^13.0.0",
+    "eslint-config-next": "11.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-tailwind": "^0.2.1",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.2",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
+    "typescript": "4.3.5"
+  }
+}

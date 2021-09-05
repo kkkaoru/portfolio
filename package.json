@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-typescript-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "ci-info": "^3.2.0",
+    "husky": "^7.0.0",
+    "is-ci": "^3.0.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.84",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "test": "yarn workspace-all test",
+    "workspace-all": "yarn workspaces list | grep packages | awk -F/ '{print $2}' | xargs -I[] yarn workspace []",
+    "prepare": "is-ci || husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kkkaoru/nextjs-typescript-tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kkkaoru/nextjs-typescript-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/kkkaoru/nextjs-typescript-tailwindcss#readme",
+  "workspaces": [
+    "packages/*"
+  ]
+}
