@@ -14,7 +14,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@web-components/*": ["./src/*"]
+      "@web-components/*": ["./src/*"],
+      "@stories/*": ["./stories/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
