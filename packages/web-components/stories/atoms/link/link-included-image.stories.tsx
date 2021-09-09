@@ -2,9 +2,10 @@ import { Story } from '@storybook/react';
 import { LinkAndImageProps, LinkIncludedImage } from '@web-components/components/atoms/link';
 import TwitterIcon from '@web-components/assets/brand/twitter/blue.svg';
 import GitHubIcon from '@web-components/assets/brand/github/black.svg';
+import { generateTitleByImportMetaUrl } from '@stories/utils/title';
 
 export default {
-  title: 'link/LinkIncludedImage',
+  title: generateTitleByImportMetaUrl(import.meta.url),
   component: LinkIncludedImage,
 };
 

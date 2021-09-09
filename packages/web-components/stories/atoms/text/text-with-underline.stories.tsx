@@ -1,8 +1,9 @@
 import { Story } from '@storybook/react';
 import { TextWithUnderline, Props } from '@web-components/components/atoms/text';
+import { generateTitleByImportMetaUrl } from '@stories/utils/title';
 
 export default {
-  title: 'text/TextWithUnderline',
+  title: generateTitleByImportMetaUrl(import.meta.url),
   component: TextWithUnderline,
 };
 
