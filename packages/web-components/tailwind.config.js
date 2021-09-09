@@ -1,5 +1,6 @@
 const animatePaused = require('./tailwindcss/plugins/animate-paused');
 const extendKeyFrames = require('./tailwindcss/extend/keyframes');
+const extendAnimation = require('./tailwindcss/extend/animation');
 
 /** @type import('@types/tailwindcss/tailwind-config').TailwindConfig */
 module.exports = {
@@ -9,10 +10,7 @@ module.exports = {
   theme: {
     extend: {
       keyframes: extendKeyFrames,
-      animation: {
-        'down-up-down': 'down-up-down 3s ease infinite',
-        'up-down-up': 'up-down-up 3s ease infinite',
-      },
+      animation: extendAnimation,
     },
   },
   plugins: [animatePaused],
