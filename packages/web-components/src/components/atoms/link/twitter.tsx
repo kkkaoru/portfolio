@@ -1,5 +1,5 @@
 import { ReactComponent as TwitterLogo } from '@web-components/assets/brand/twitter/blue.svg';
-import { LinkIncludedChildren } from './Link-included-children';
+import { LinkIncludedChildren } from './link-included-children';
 import { generateTwitterUrl } from './functions';
 import type { SnsLinkProps } from './types';
 

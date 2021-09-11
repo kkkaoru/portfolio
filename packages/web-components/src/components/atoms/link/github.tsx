@@ -1,5 +1,5 @@
 import { ReactComponent as GithubLogo } from '@web-components/assets/brand/github/black.svg';
-import { LinkIncludedChildren } from './Link-included-children';
+import { LinkIncludedChildren } from './link-included-children';
 import { generateGitHubUrl } from './functions';
 import type { SnsLinkProps } from './types';
 

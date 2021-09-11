@@ -1,4 +1,4 @@
-import { LinkIncludedChildrenProps } from '../Link-included-children';
+import { LinkIncludedChildrenProps } from '../link-included-children';
 
 export type SnsLinkProps = {
   id: string;
