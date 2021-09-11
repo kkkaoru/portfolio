@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`twitter link should be matched snapshot 1`] = `
+<DocumentFragment>
+  <a
+    aria-label="Twitter"
+    class="animate-up-down-up flex w-16"
+    href="https://twitter.com/TwitterJp"
+    rel="noopener"
+    target="_blank"
+  >
+    <svg
+      data-jest-file-name="blue.svg"
+      data-jest-svg-name="blue"
+      data-testid="blue"
+    />
+  </a>
+</DocumentFragment>
+`;
