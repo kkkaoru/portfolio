@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListLinkIncludedImage should be matched snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    class="grid grid-cols-2 place-items-center"
+  >
+    <li>
+      <a
+        aria-label="Twitter"
+        class="animate-up-down-up flex w-16"
+        href="https://twitter.com/TwitterJP"
+        rel="noopener"
+        target="_blank"
+      >
+        <svg
+          data-jest-file-name="blue.svg"
+          data-jest-svg-name="blue"
+          data-testid="blue"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="GitHub"
+        class="animate-down-up-down flex w-16"
+        href="https://github.com/github"
+        rel="noopener"
+        target="_blank"
+      >
+        <svg
+          data-jest-file-name="black.svg"
+          data-jest-svg-name="black"
+          data-testid="black"
+        />
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
