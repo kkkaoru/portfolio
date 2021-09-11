@@ -1,8 +1,6 @@
-const componentsDir = require('path').dirname(require.resolve('@web/components/package.json'));
+const componentsPurgeDir = require('path').dirname(require.resolve('@web/components/tailwind.config.js'));
 
 /** @type import('@types/tailwindcss/tailwind-config').TailwindConfig */
-module.exports = {
-  mode: 'jit',
-  purge: [`${componentsDir}/**/*.{js,ts,jsx,tsx}`, 'pages/**/*.tsx'],
-  darkMode: false, // or 'media' or 'class'
-};
+module.exports = Object.assign({}, require('@web/components/tailwind.config.js'), {
+  purge: [`${componentsPurgeDir}/**/*.{js,ts,jsx,tsx}`, 'pages/**/*.tsx'],
+});
