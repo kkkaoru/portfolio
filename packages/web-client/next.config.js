@@ -15,7 +15,15 @@ const config = {
       '@web-components': `${require('path').dirname(require.resolve('@web/components/package.json'))}/src`,
       // ...
     };
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack', 'url-loader'],
+    });
     return config;
+  },
+  images: {
+    // Be enable custom svg type
+    disableStaticImages: true,
   },
 };
 

@@ -16,7 +16,8 @@
     "paths": {
       "@web-components/*": ["./src/*"],
       "@stories/*": ["./stories/*"]
-    }
+    },
+    "types": ["vite-plugin-svgr/client"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
   "exclude": ["node_modules"]

@@ -41,6 +41,7 @@ module.exports = {
         replacement: `${__dirname}/../stories/`,
       },
     ];
+    config.plugins = [...config.plugins, require('vite-plugin-svgr')()];
     return config;
   },
 };

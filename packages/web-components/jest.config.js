@@ -9,6 +9,7 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/test/jest-setup.ts'],
   transform: {
     '^.+\\.(ts|tsx)$': '@swc/jest',
+    '\\.svg$': 'svg-jest',
   },
   moduleNameMapper: {
     '@web-components/(.*)$': '<rootDir>/src/$1',

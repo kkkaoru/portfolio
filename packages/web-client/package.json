@@ -10,7 +10,7 @@
     "next-dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint",
     "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx --resolve-plugins-relative-to .",
     "prettier": "prettier --write --check .",
     "lint-staged": "lint-staged",
@@ -26,6 +26,7 @@
     "tailwindcss": "^2.2.7"
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "@swc/core": "^1.2.84",
     "@swc/jest": "^0.2.2",
     "@testing-library/react": "^12.0.0",
@@ -56,6 +57,7 @@
     "npm-run-all": "^4.1.5",
     "postcss": "^8.3.6",
     "prettier": "^2.3.2",
+    "svg-jest": "^1.0.1",
     "typescript": "4.3.5"
   }
 }
