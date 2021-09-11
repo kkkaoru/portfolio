@@ -14,7 +14,8 @@
   "scripts": {
     "test": "yarn workspace-all test",
     "workspace-all": "yarn workspaces list | grep packages | awk -F/ '{print $2}' | xargs -I[] yarn workspace []",
-    "prepare": "is-ci || husky install"
+    "prepare": "is-ci || husky install",
+    "postinstall": "npm run prepare"
   },
   "repository": {
     "type": "git",

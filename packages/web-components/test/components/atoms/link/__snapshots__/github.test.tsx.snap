@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`github link should be matched snapshot 1`] = `
+<DocumentFragment>
+  <a
+    aria-label="GitHub"
+    class="animate-up-down-up flex w-16"
+    href="https://github.com/TwitterJp"
+    rel="noopener"
+    target="_blank"
+  >
+    <svg
+      data-jest-file-name="black.svg"
+      data-jest-svg-name="black"
+      data-testid="black"
+    />
+  </a>
+</DocumentFragment>
+`;

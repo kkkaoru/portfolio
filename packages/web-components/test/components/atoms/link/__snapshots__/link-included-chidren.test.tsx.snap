@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`link included children should be matched snapshot 1`] = `
+<DocumentFragment>
+  <a
+    aria-label="Twitter"
+    class="animate-up-down-up flex w-16"
+    href="https://twitter.com/TwitterJP"
+    rel="noopener"
+    target="_blank"
+  >
+    <div />
+  </a>
+</DocumentFragment>
+`;

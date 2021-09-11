@@ -7,6 +7,7 @@ module.exports = {
   transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(ts|tsx)$'],
   transform: {
     '^.+\\.(ts|tsx)$': '@swc/jest',
+    '\\.svg$': 'svg-jest',
   },
   moduleNameMapper: {
     '~/(.*)$': '<rootDir>/$1',

@@ -1,9 +1,10 @@
 import { action } from '@storybook/addon-actions';
 import { Story, Meta } from '@storybook/react';
 import { DefaultButton, Props } from '@web-components/components/atoms/button/default';
+import { generateTitleByImportMetaUrl } from '@stories/utils/title';
 
 export default {
-  title: 'button/DefaultButton',
+  title: generateTitleByImportMetaUrl(import.meta.url),
   component: DefaultButton,
   argTypes: {
     backgroundColor: { control: 'color' },

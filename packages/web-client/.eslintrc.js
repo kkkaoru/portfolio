@@ -12,6 +12,9 @@ module.exports = {
     'plugin:jest/recommended',
     'prettier',
   ],
+  parserOptions: {
+    project: './tsconfig.json',
+  },
   rules: {
     'import/prefer-default-export': 'off',
     'import/extensions': 'off',

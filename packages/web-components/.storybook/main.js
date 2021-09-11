@@ -36,7 +36,12 @@ module.exports = {
         find: '@web-components/',
         replacement: `${__dirname}/../src/`,
       },
+      {
+        find: '@stories/',
+        replacement: `${__dirname}/../stories/`,
+      },
     ];
+    config.plugins = [...config.plugins, require('vite-plugin-svgr')()];
     return config;
   },
 };
