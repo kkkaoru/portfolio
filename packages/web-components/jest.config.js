@@ -14,5 +14,6 @@ module.exports = {
   moduleNameMapper: {
     '@web-components/(.*)$': '<rootDir>/src/$1',
     '@stories/(.*)$': '<rootDir>/stories/$1',
+    '@mocks/(.*)$': '<rootDir>/mocks/$1',
   },
 };
