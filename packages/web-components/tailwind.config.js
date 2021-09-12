@@ -1,4 +1,5 @@
 const animatePaused = require('./tailwindcss/plugins/animate-paused');
+const addBase = require('./tailwindcss/plugins/add-base');
 const extendKeyFrames = require('./tailwindcss/extend/keyframes');
 const extendAnimation = require('./tailwindcss/extend/animation');
 
@@ -13,5 +14,5 @@ module.exports = {
       animation: extendAnimation,
     },
   },
-  plugins: [animatePaused],
+  plugins: [animatePaused, addBase],
 };
