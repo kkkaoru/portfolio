@@ -10,7 +10,7 @@ export const Default: Story = () => (
     twitterId="TwitterJP"
     githubId="github"
     ImageComponent={(args) => (
-      <img src="http://placekitten.com/400/400" alt="Cat" width="400" height="400" decoding="async" {...args} />
+      <img src="http://placekitten.com/800/800" alt="Cat" width="400" height="400" decoding="async" {...args} />
     )}
   />
 );
