@@ -3,11 +3,11 @@ import { Description, DescriptionProps } from '@web-components/components/atoms/
 
 export type TitleAndDescriptionProps = TitleProps & DescriptionProps;
 
-export function TitleAndDescription({ title, description }: TitleAndDescriptionProps): JSX.Element {
+export function TitleAndDescription({ title, description, useSerif }: TitleAndDescriptionProps): JSX.Element {
   return (
     <>
       <H2 title={title} />
-      <Description description={description} />
+      <Description description={description} useSerif={useSerif} />
     </>
   );
 }

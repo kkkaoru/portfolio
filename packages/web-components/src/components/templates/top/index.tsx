@@ -18,6 +18,9 @@ export function Top({ ImageComponent, ...snsLinkProps }: TopProps): JSX.Element 
         <RoundedIcon ImageComponent={ImageComponent} />
       </Section>
       <Section>
+        <TitleAndDescription title="NAME" description="KAORU" useSerif />
+      </Section>
+      <Section>
         <TitleAndDescription title="JOB" description="Front End Developer" />
       </Section>
       <Section>
