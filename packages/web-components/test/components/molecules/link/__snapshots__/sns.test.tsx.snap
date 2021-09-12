@@ -3,7 +3,7 @@
 exports[`ListLinkIncludedImage should be matched snapshot 1`] = `
 <DocumentFragment>
   <ul
-    class="grid grid-cols-2 place-items-center"
+    class="max-w-sm pt-5 mx-auto grid grid-cols-2 place-items-center"
   >
     <li>
       <a

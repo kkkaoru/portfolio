@@ -10,7 +10,7 @@ export function ListSnSLinks({ twitterId, githubId }: SnsLinksProps): JSX.Elemen
     return <></>;
   }
   return (
-    <ul className="grid grid-cols-2 place-items-center">
+    <ul className="max-w-sm pt-5 mx-auto grid grid-cols-2 place-items-center">
       {twitterId && (
         <li>
           <TwitterLink id={twitterId} />
