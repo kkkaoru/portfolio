@@ -4,6 +4,7 @@ import { RoundedIcon } from '@web-components/components/atoms/icon';
 import { H2 } from '@web-components/components/atoms/title';
 import { TitleAndDescription } from '@web-components/components/molecules/text';
 import { Header } from '@web-components/components/organisms/header';
+import { Footer } from '@web-components/components/organisms/footer';
 
 export type TopProps = {
   ImageComponent: React.VFC<React.ImgHTMLAttributes<HTMLImageElement>>;
@@ -11,7 +12,7 @@ export type TopProps = {
 
 export function Top({ ImageComponent, ...snsLinkProps }: TopProps): JSX.Element {
   return (
-    <>
+    <div className="flex flex-col md:min-h-screen">
       <Header />
       <Section>
         <RoundedIcon ImageComponent={ImageComponent} />
@@ -29,6 +30,7 @@ export function Top({ ImageComponent, ...snsLinkProps }: TopProps): JSX.Element 
       <Section>
         <ContactLink href="#" />
       </Section>
-    </>
+      <Footer text="kkkaoru" />
+    </div>
   );
 }

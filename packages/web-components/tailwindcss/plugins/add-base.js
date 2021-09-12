@@ -10,6 +10,7 @@ module.exports = plugin(function ({ addBase, config }) {
     },
     body: {
       backgroundColor: config('theme.colors.gray.50'),
+      minHeight: '100vh',
     },
   });
 });
