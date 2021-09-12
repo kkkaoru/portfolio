@@ -5,7 +5,7 @@ type RoundedIconProps = {
 export function RoundedIcon({ ImageComponent }: RoundedIconProps): JSX.Element {
   return (
     <p className="grid place-items-center">
-      <ImageComponent className="max-w-xs rounded-full drop-shadow-md" />
+      <ImageComponent className="max-w-full rounded-full md:max-w-md drop-shadow-md" />
     </p>
   );
 }

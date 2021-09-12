@@ -3,6 +3,5 @@ type Props = {
 };
 
 export function Section({ children }: Props): JSX.Element {
-  return <section className="max-w-full pt-6">{children}</section>;
+  return <section className="max-w-full pt-8">{children}</section>;
 }
-// className = 'grid place-items-center';
