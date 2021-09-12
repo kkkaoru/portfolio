@@ -40,6 +40,10 @@ module.exports = {
         find: '@stories/',
         replacement: `${__dirname}/../stories/`,
       },
+      {
+        find: '@mocks/',
+        replacement: `${__dirname}/../mocks/`,
+      },
     ];
     config.plugins = [...config.plugins, require('vite-plugin-svgr')()];
     return config;
