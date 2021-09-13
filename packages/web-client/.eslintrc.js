@@ -23,6 +23,7 @@ module.exports = {
     'max-lines': 'error',
     'max-depth': 'error',
     'max-lines-per-function': 'error',
+    'react/jsx-props-no-spreading': 'off',
   },
   env: {
     browser: true,
