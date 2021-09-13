@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
         <meta name="description" content="kkkaoru's site. Front end developer." />
         <meta property="og:title" content="kkkaoru's site" />
         <meta property="og:description" content="kkkaoru's site. Front end developer." />
-        <meta property="og:image" content="https://kkkaoru.net/ogp.png" />
+        <meta property="og:image" content="https://www.kkkaoru.net/ogp.png" />
         <meta name="twitter:site" content={`@${twitterId}`} />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/favicon.svg" />
