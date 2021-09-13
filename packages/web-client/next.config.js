@@ -25,6 +25,9 @@ const config = {
     // Be enable custom svg type
     disableStaticImages: true,
   },
+  env: {
+    GTM_ID: process.env.GTM_ID,
+  },
 };
 
 module.exports = withPlugins([withTM], config);
