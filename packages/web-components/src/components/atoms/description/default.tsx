@@ -4,5 +4,5 @@ export type DescriptionProps = {
 };
 
 export function Description({ description, useSerif }: DescriptionProps): JSX.Element {
-  return <p className={`flex justify-center pt-2 ${useSerif ? 'font-serif' : ''}`}>{description}</p>;
+  return <p className={`flex justify-center pt-2 px-8 text-center ${useSerif ? 'font-serif' : ''}`}>{description}</p>;
 }
