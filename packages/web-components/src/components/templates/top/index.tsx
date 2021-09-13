@@ -8,9 +8,11 @@ import { Footer } from '@web-components/components/organisms/footer';
 
 export type TopProps = {
   ImageComponent: React.VFC<React.ImgHTMLAttributes<HTMLImageElement>>;
+  contactLink: string;
+  footerText: string;
 } & SnsLinksProps;
 
-export function Top({ ImageComponent, ...snsLinkProps }: TopProps): JSX.Element {
+export function Top({ ImageComponent, contactLink, footerText, ...snsLinkProps }: TopProps): JSX.Element {
   return (
     <div className="flex flex-col md:min-h-screen">
       <Header />
@@ -31,9 +33,9 @@ export function Top({ ImageComponent, ...snsLinkProps }: TopProps): JSX.Element 
         <ListSnSLinks {...snsLinkProps} />
       </Section>
       <Section>
-        <ContactLink href="#" />
+        <ContactLink href={contactLink} />
       </Section>
-      <Footer text="kkkaoru" />
+      <Footer text={footerText} />
     </div>
   );
 }
