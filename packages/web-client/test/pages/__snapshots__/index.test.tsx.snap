@@ -4,22 +4,159 @@ exports[`Top page should be matched snapshot 1`] = `
 <DocumentFragment>
   <div>
     <main>
-      <h1>
-        Web client
-      </h1>
-      <a
-        aria-label="Twitter"
-        class="animate-up-down-up flex w-16"
-        href="https://twitter.com/undefined"
-        rel="noopener"
-        target="_blank"
+      <div
+        class="flex flex-col md:min-h-screen"
       >
-        <svg
-          data-jest-file-name="blue.svg"
-          data-jest-svg-name="blue"
-          data-testid="blue"
-        />
-      </a>
+        <header
+          class="pt-4"
+        >
+          <div
+            class="h-6"
+          >
+            <svg
+              class="w-full h-full"
+              data-jest-file-name="party-face.svg"
+              data-jest-svg-name="party-face"
+              data-testid="party-face"
+            />
+          </div>
+        </header>
+        <section
+          class="max-w-full pt-8"
+        >
+          <div
+            class="px-4 grid place-items-center"
+          >
+            <div
+              class="rounded-full drop-shadow-md"
+            >
+              <div
+                style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 320px; height: 320px;"
+              >
+                <noscript />
+                <img
+                  alt="kkkaoru's social icon"
+                  class="max-w-full rounded-full md:max-w-md"
+                  data-nimg="true"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUFBQUFBQYGBgYICQgJCAwLCgoLDBINDg0ODRIbERQRERQRGxgdGBYYHRgrIh4eIisyKigqMjw2NjxMSExkZIYBBQUFBQUFBgYGBggJCAkIDAsKCgsMEg0ODQ4NEhsRFBERFBEbGB0YFhgdGCsiHh4iKzIqKCoyPDY2PExITGRkhv/CABEIACAAIAMBIgACEQEDEQH/xAAZAAEAAwEBAAAAAAAAAAAAAAAGBAUHAQL/2gAIAQEAAAAAoeqa8D4fo4eetXmc6fOL/wD/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAX/2gAIAQIQAAAAzWl//8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAE/9oACAEDEAAAANgh/8QALBAAAgEDAwIEBQUAAAAAAAAAAQIDBAURAAYhEiIHMUFxExQyUWEVJDOBof/aAAgBAQABPwB5aSmiQTxmXP1RD19scjRuNNUQyVNPb6plQquPf0zgc6Fkgq6CCto3kCTIWAbDjt8x1LwCNU9prJEqZY4x0opLMTwAo1U18l4nMNPSfDKn6yhxq67tm278OGJH7OOR192PQHGvCPe1ruluTbNbSIJnkklikiXoJZvNTjXiEl02/TUsu35pEgmnMMztzggZzz99WD9MqaNnbochM9o7fcNjW6Voau80M3yskkQWbmNC+HAC5IHvrw62NR2q4NfZWxLOv7GNvRXH8mPyNeK8r2/ZaTSR4ljqlcp5hsrjK62rUrXrR2+SqpUh9RGULzHGecYP9Y1R7Mt8j9c0KkgCRARlSw/B+2qG2xz3dhNICc9LHPcp5/zjjXjjdaYbfprZMrlpJA8U6dydn31//8QAGREBAQEAAwAAAAAAAAAAAAAAAQIAERIh/9oACAECAQE/AI7V4TqgMRQnBmVhXf/EABsRAAIDAAMAAAAAAAAAAAAAAAABAgMSIVFh/9oACAEDAQE/AM8DaK7VXPTWvCU9zb7P/9k=); background-position: 0% 0%;"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="max-w-full pt-8"
+        >
+          <h2
+            class="flex justify-center font-serif text-2xl font-bold tracking-widest"
+          >
+            NAME
+          </h2>
+          <p
+            class="flex justify-center pt-2 font-serif"
+          >
+            KAORU
+          </p>
+        </section>
+        <section
+          class="max-w-full pt-8"
+        >
+          <h2
+            class="flex justify-center font-serif text-2xl font-bold tracking-widest"
+          >
+            JOB
+          </h2>
+          <p
+            class="flex justify-center pt-2 "
+          >
+            Front End Developer
+          </p>
+        </section>
+        <section
+          class="max-w-full pt-8"
+        >
+          <h2
+            class="flex justify-center font-serif text-2xl font-bold tracking-widest"
+          >
+            SKILLS
+          </h2>
+          <p
+            class="flex justify-center pt-2 "
+          >
+            React, Vue.js, TypeScript, SCSS, HTML
+          </p>
+        </section>
+        <section
+          class="max-w-full pt-8"
+        >
+          <h2
+            class="flex justify-center font-serif text-2xl font-bold tracking-widest"
+          >
+            SNS LINKS
+          </h2>
+          <ul
+            class="max-w-sm pt-5 mx-auto grid grid-cols-2 place-items-center"
+          >
+            <li>
+              <a
+                aria-label="Twitter"
+                class="animate-up-down-up flex w-16"
+                href="https://twitter.com/kkk4oru"
+                rel="noopener"
+                target="_blank"
+              >
+                <svg
+                  data-jest-file-name="blue.svg"
+                  data-jest-svg-name="blue"
+                  data-testid="blue"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                aria-label="GitHub"
+                class="animate-down-up-down flex w-16"
+                href="https://github.com/kkkaoru"
+                rel="noopener"
+                target="_blank"
+              >
+                <svg
+                  data-jest-file-name="black.svg"
+                  data-jest-svg-name="black"
+                  data-testid="black"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section
+          class="max-w-full pt-8"
+        >
+          <div
+            class="pt-20 grid place-items-center"
+          >
+            <a
+              class="inline-block font-sans text-base font-bold leading-none border-0 cursor-pointer rounded-[3em] py-[11px] px-[20px] text-[#fff] bg-[#1ea7fd]"
+              href="https://docs.google.com/forms/d/1JJ6KDNZPb9F2nfb1RBZuOuoZZelDARLo0M5s39f6cS0/viewform?edit_requested=true"
+              rel="noopener"
+              target="_blank"
+            >
+              CONTACT US
+            </a>
+          </div>
+        </section>
+        <footer
+          class="flex items-end justify-center flex-1 pt-20 pb-4"
+        >
+          <span
+            class="font-serif text-sm text-gray-600"
+          >
+            © kaoru
+          </span>
+        </footer>
+      </div>
     </main>
   </div>
 </DocumentFragment>
