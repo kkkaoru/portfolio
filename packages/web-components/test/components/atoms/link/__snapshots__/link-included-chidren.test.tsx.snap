@@ -4,7 +4,7 @@ exports[`link included children should be matched snapshot 1`] = `
 <DocumentFragment>
   <a
     aria-label="Twitter"
-    class="animate-up-down-up flex w-16"
+    class="animate-up-down-up block w-16"
     href="https://twitter.com/TwitterJP"
     rel="noopener"
     target="_blank"

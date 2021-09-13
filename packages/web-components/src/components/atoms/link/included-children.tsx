@@ -17,7 +17,7 @@ export function LinkIncludedChildren({
 }: LinkIncludedChildrenProps): JSX.Element {
   const animation = isReversedAnimation ? 'animate-down-up-down' : 'animate-up-down-up';
   return (
-    <a href={href} target={target} rel={rel} className={`${animation} flex w-16`} aria-label={ariaLabel}>
+    <a href={href} target={target} rel={rel} className={`${animation} block w-16`} aria-label={ariaLabel}>
       {children}
     </a>
   );

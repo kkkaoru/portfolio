@@ -102,7 +102,7 @@ exports[`Top page should be matched snapshot 1`] = `
             <li>
               <a
                 aria-label="Twitter"
-                class="animate-up-down-up flex w-16"
+                class="animate-up-down-up block w-16"
                 href="https://twitter.com/kkk4oru"
                 rel="noopener"
                 target="_blank"
@@ -117,7 +117,7 @@ exports[`Top page should be matched snapshot 1`] = `
             <li>
               <a
                 aria-label="GitHub"
-                class="animate-down-up-down flex w-16"
+                class="animate-down-up-down block w-16"
                 href="https://github.com/kkkaoru"
                 rel="noopener"
                 target="_blank"
