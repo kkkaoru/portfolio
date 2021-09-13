@@ -50,7 +50,7 @@ exports[`Top page should be matched snapshot 1`] = `
           class="max-w-full pt-8"
         >
           <h2
-            class="flex justify-center font-serif text-2xl font-bold tracking-widest"
+            class="flex justify-center font-serif text-2xl font-bold not-italic tracking-widest"
           >
             NAME
           </h2>
@@ -64,7 +64,7 @@ exports[`Top page should be matched snapshot 1`] = `
           class="max-w-full pt-8"
         >
           <h2
-            class="flex justify-center font-serif text-2xl font-bold tracking-widest"
+            class="flex justify-center font-serif text-2xl font-bold not-italic tracking-widest"
           >
             JOB
           </h2>
@@ -78,7 +78,7 @@ exports[`Top page should be matched snapshot 1`] = `
           class="max-w-full pt-8"
         >
           <h2
-            class="flex justify-center font-serif text-2xl font-bold tracking-widest"
+            class="flex justify-center font-serif text-2xl font-bold not-italic tracking-widest"
           >
             SKILLS
           </h2>
@@ -92,7 +92,7 @@ exports[`Top page should be matched snapshot 1`] = `
           class="max-w-full pt-8"
         >
           <h2
-            class="flex justify-center font-serif text-2xl font-bold tracking-widest"
+            class="flex justify-center font-serif text-2xl font-bold not-italic tracking-widest"
           >
             SNS LINKS
           </h2>
@@ -130,6 +130,26 @@ exports[`Top page should be matched snapshot 1`] = `
               </a>
             </li>
           </ul>
+        </section>
+        <section
+          class="max-w-full pt-8"
+        >
+          <div
+            class="flex justify-center pt-8"
+          >
+            <a
+              class="underline"
+              href="https://github.com/kkkaoru/portfolio"
+              rel="noopener"
+              target="_blank"
+            >
+              <h2
+                class="flex justify-center font-serif text-xl font-normal italic tracking-widest"
+              >
+                REPOSITORY URL
+              </h2>
+            </a>
+          </div>
         </section>
         <section
           class="max-w-full pt-8"

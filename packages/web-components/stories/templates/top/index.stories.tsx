@@ -9,6 +9,7 @@ export const Default: Story = () => (
   <Top
     twitterId="TwitterJP"
     githubId="github"
+    repositoryLink="#"
     contactLink="#"
     footerText="copyright"
     ImageComponent={(args) => (

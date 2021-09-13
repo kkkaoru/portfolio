@@ -21,6 +21,7 @@ export default function Home(): JSX.Element {
           ImageComponent={Icon}
           twitterId={twitterId}
           githubId="kkkaoru"
+          repositoryLink="https://github.com/kkkaoru/portfolio"
           contactLink="https://docs.google.com/forms/d/1JJ6KDNZPb9F2nfb1RBZuOuoZZelDARLo0M5s39f6cS0/viewform?edit_requested=true"
           footerText="&copy;&nbsp;kaoru"
         />

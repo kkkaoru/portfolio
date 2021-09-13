@@ -1,4 +1,4 @@
-import { ListSnSLinks, SnsLinksProps, ContactLink } from '@web-components/components/molecules/link';
+import { ListSnSLinks, SnsLinksProps, ContactLink, TitleLink } from '@web-components/components/molecules/link';
 import { Section } from '@web-components/components/atoms/section';
 import { RoundedIcon } from '@web-components/components/atoms/icon';
 import { H2 } from '@web-components/components/atoms/title';
@@ -8,11 +8,18 @@ import { Footer } from '@web-components/components/organisms/footer';
 
 export type TopProps = {
   ImageComponent: React.VFC<React.ImgHTMLAttributes<HTMLImageElement>>;
+  repositoryLink: string;
   contactLink: string;
   footerText: string;
 } & SnsLinksProps;
 
-export function Top({ ImageComponent, contactLink, footerText, ...snsLinkProps }: TopProps): JSX.Element {
+export function Top({
+  ImageComponent,
+  repositoryLink,
+  contactLink,
+  footerText,
+  ...snsLinkProps
+}: TopProps): JSX.Element {
   return (
     <div className="flex flex-col md:min-h-screen">
       <Header />
@@ -31,6 +38,9 @@ export function Top({ ImageComponent, contactLink, footerText, ...snsLinkProps }
       <Section>
         <H2 title="SNS LINKS" />
         <ListSnSLinks {...snsLinkProps} />
+      </Section>
+      <Section>
+        <TitleLink href={repositoryLink} text="REPOSITORY URL" />
       </Section>
       <Section>
         <ContactLink href={contactLink} />
