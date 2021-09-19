@@ -4563,7 +4563,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^7.2.13":
+"@types/connect@npm:*":
+  version: 3.4.35
+  resolution: "@types/connect@npm:3.4.35"
+  dependencies:
+    "@types/node": "*"
+  checksum: 4b04cae4bc8e0d0637240b0303e5e6c5a081f85873bb338a02dae95bdfcad5c178be03e41d47f8194675cea0c67ffbfce1530b6633040b908d20139745cb338f
+  languageName: node
+  linkType: hard
+
+"@types/eslint@npm:^7.2.13, @types/eslint@npm:^7.28.0":
   version: 7.28.0
   resolution: "@types/eslint@npm:7.28.0"
   dependencies:
@@ -4619,6 +4628,15 @@ __metadata:
   version: 5.1.2
   resolution: "@types/html-minifier-terser@npm:5.1.2"
   checksum: 6a6c7968dfcbe4d9192ba471122e037d9a9fbe39a3d4bab0900c4b65aaf1c6db589f1b0d670444eb6fa605d6eb0c4f50bbfe856c7b30b7497bcec2e45578d1b1
+  languageName: node
+  linkType: hard
+
+"@types/http-server@npm:^0.12.1":
+  version: 0.12.1
+  resolution: "@types/http-server@npm:0.12.1"
+  dependencies:
+    "@types/connect": "*"
+  checksum: 30d1eda3167dffb5424dd8e2211254b6e051f8430b833b7574a0364a3e5765613105040b4bc3a68d3dc5cc73dab3973a92056f770c89ed19413ae28ea44f4280
   languageName: node
   linkType: hard
 
@@ -4825,6 +4843,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:^17.0.9":
+  version: 17.0.9
+  resolution: "@types/react-dom@npm:17.0.9"
+  dependencies:
+    "@types/react": "*"
+  checksum: 82da85bcfba524fb83946df50e433b8cc942dd30f5f3f6e0756816960ce4b85db6faa2da9f2b83124087fbe0d124580edf7b1017628b78fb28fee057e91512cb
+  languageName: node
+  linkType: hard
+
 "@types/react-syntax-highlighter@npm:11.0.5":
   version: 11.0.5
   resolution: "@types/react-syntax-highlighter@npm:11.0.5"
@@ -4842,6 +4869,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: c7a85f1ce6c4e82d304ff9aba3c692245c9ba5cc87773abb0a2938a854dfb0c6ab8c38f2c69de70dfe2f8d3cb57314f5e2a229292e135be51835ea2767d13eab
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17.0.21":
+  version: 17.0.21
+  resolution: "@types/react@npm:17.0.21"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: c3f0c465a2d680c17ff7fa5dc4ec2a796044f710f37b7917960c4eedcb5dfab502da3df4aee24f0f57a5a8600fabd3f0085fe2ebf00c4870df70d2ce02a3982f
   languageName: node
   linkType: hard
 
@@ -4880,12 +4918,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/testing-library__jest-dom@npm:^5.9.1":
+"@types/testing-library__jest-dom@npm:^5.14.1, @types/testing-library__jest-dom@npm:^5.9.1":
   version: 5.14.1
   resolution: "@types/testing-library__jest-dom@npm:5.14.1"
   dependencies:
     "@types/jest": "*"
   checksum: 40c7417a26c1906ae1f04eddeea1de76b7c71d0ce917614b88e0a2aafb1db8393187c9f4d799520cca3f128b7ceb8408dced1c5c730e51b27212436547dc3c29
+  languageName: node
+  linkType: hard
+
+"@types/twemoji@npm:^12.1.2":
+  version: 12.1.2
+  resolution: "@types/twemoji@npm:12.1.2"
+  checksum: b226e109e52448c9c6e9325331ea93a94c14230e9791d6859c7dd2764f1b7658d2acba083333973a7ef04a1156bd231a781b9b5706b5f4701cb60f5f0869adec
   languageName: node
   linkType: hard
 
@@ -5151,8 +5196,15 @@ __metadata:
     "@swc/jest": ^0.2.2
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^12.0.0
+    "@types/eslint": ^7.28.0
+    "@types/http-server": ^0.12.1
     "@types/jest": ^27.0.1
+    "@types/prettier": ^2.3.2
+    "@types/react": ^17.0.21
+    "@types/react-dom": ^17.0.9
     "@types/tailwindcss": ^2.2.1
+    "@types/testing-library__jest-dom": ^5.14.1
+    "@types/twemoji": ^12.1.2
     autoprefixer: ^10.3.2
     eslint: ^7.32.0
     eslint-config-airbnb: ^18.2.1
