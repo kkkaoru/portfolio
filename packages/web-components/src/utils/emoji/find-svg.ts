@@ -10,6 +10,8 @@ export function findSvgUrlInTwemoji(emoji: string): string | undefined {
   if (parsedEntities.length === 0 || emoji.length !== 2) {
     return undefined;
   }
+  // Parsed entities are array
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-call
   const foundedEntity: EmojiEntity | undefined = parsedEntities.find((entity: EmojiEntity) => entity.text === emoji);
   if (foundedEntity === undefined) {
     return undefined;
