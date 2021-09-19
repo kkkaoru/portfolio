@@ -16,7 +16,8 @@
     "lint-staged": "lint-staged",
     "tsc": "tsc --noEmit",
     "watch:jest": "jest --watch",
-    "test": "jest"
+    "test": "jest",
+    "preinstall": "typesync"
   },
   "dependencies": {
     "@web/components": "workspace:*",
@@ -34,6 +35,7 @@
     "@types/jest": "^27.0.0",
     "@types/prettier": "^2.3.2",
     "@types/react": "17.0.17",
+    "@types/react-dom": "17.0.2",
     "@types/tailwindcss": "^2.2.1",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "autoprefixer": "^10.3.2",
@@ -58,6 +60,7 @@
     "postcss": "^8.3.6",
     "prettier": "^2.3.2",
     "svg-jest": "^1.0.1",
-    "typescript": "4.3.5"
+    "typescript": "4.3.5",
+    "typesync": "^0.8.0"
   }
 }
