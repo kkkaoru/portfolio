@@ -4872,6 +4872,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:17.0.2":
+  version: 17.0.2
+  resolution: "@types/react-dom@npm:17.0.2"
+  dependencies:
+    "@types/react": "*"
+  checksum: abaadaa2629640870f4b982e3f32cf8f719773cfa97f02931baebef1993c0e2d70fd17f94b29bcf00d45ea099d5f04a042cf55ecb5e2bf8804c4e4cabdb4adc0
+  languageName: node
+  linkType: hard
+
 "@types/react-dom@npm:>=16.9.0, @types/react-dom@npm:^17.0.9":
   version: 17.0.9
   resolution: "@types/react-dom@npm:17.0.9"
@@ -19069,10 +19078,13 @@ resolve@^2.0.0-next.3:
     "@swc/core": ^1.2.84
     "@swc/jest": ^0.2.2
     "@testing-library/react": ^12.0.0
+    "@testing-library/react-hooks": ^7.0.2
     "@types/eslint": ^7.2.13
     "@types/jest": ^27.0.0
+    "@types/node-emoji": ^1.8.1
     "@types/prettier": ^2.3.2
     "@types/react": 17.0.17
+    "@types/react-dom": 17.0.2
     "@types/tailwindcss": ^2.2.1
     "@typescript-eslint/eslint-plugin": ^4.28.1
     "@web/components": "workspace:*"
@@ -19095,6 +19107,7 @@ resolve@^2.0.0-next.3:
     next: 11.1.0
     next-compose-plugins: ^2.2.1
     next-transpile-modules: ^8.0.0
+    node-emoji: ^1.11.0
     npm-run-all: ^4.1.5
     postcss: ^8.3.6
     prettier: ^2.3.2
@@ -19102,6 +19115,7 @@ resolve@^2.0.0-next.3:
     react-dom: 17.0.2
     svg-jest: ^1.0.1
     tailwindcss: ^2.2.7
+    twemoji-parser: ^13.1.0
     typescript: 4.3.5
     typesync: ^0.8.0
   languageName: unknown
