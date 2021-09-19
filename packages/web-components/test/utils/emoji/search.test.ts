@@ -1,4 +1,4 @@
-import { mockEmojiThumbsUp } from '@mocks/emoji/thumbsUp';
+import { mockEmojiThumbsUp } from '@mocks/emoji/thumbs-up';
 import { searchSvgInTwemoji } from '@web-components/utils/emoji/search';
 
 describe('find svg', () => {
