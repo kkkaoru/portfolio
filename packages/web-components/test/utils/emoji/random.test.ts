@@ -1,7 +1,7 @@
 import { findRandomEmoji } from '@web-components/utils/emoji/random';
 import { mockEmojiThumbsUpSvgUrl } from '@mocks/emoji/thumbs-up';
 
-describe('find svg', () => {
+describe('find random emoji svg', () => {
   it('should be included svg url', () => {
     expect(findRandomEmoji()).toMatch(new RegExp('^https://twemoji.maxcdn.com/v/latest/svg/.*?.svg'));
   });

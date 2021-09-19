@@ -11,6 +11,6 @@ export default {
 
 export const ThumbsUp: Story = () => <LogoImgWithSvg alt="thumbs up" src={mockEmojiThumbsUpSvgUrl} />;
 export const Random: Story = () => {
-  const emoji = useRandomEmoji(2000);
+  const emoji = useRandomEmoji();
   return <LogoImgWithSvg alt="thumbs up" src={emoji} />;
 };

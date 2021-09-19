@@ -1,8 +1,7 @@
 import { renderHook } from '@testing-library/react-hooks';
 import { useRandomEmoji } from '@web-components/utils/emoji/hooks';
-// import { mockEmojiThumbsUpSvgUrl } from '@mocks/emoji/thumbs-up';
 
-describe('find svg', () => {
+describe('random emoji hooks', () => {
   it('should be return emoji url', () => {
     const { result } = renderHook(() => useRandomEmoji());
     expect(result.current).toMatch(new RegExp('^https://twemoji.maxcdn.com/v/latest/svg/.*?.svg'));
