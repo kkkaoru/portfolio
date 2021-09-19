@@ -2,7 +2,7 @@
 // This disable is depends on twemoji-parser
 import { parse, EmojiEntity } from 'twemoji-parser';
 
-export function findSvgUrlInTwemoji(emoji: string): string | undefined {
+export function searchSvgInTwemoji(emoji: string): string | undefined {
   // This disable is depends on twemoji-parser
   // eslint-disable-next-line @typescript-eslint/no-unsafe-call
   const parsedEntities = parse(emoji);
