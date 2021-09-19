@@ -1,10 +1,10 @@
 import { random } from 'node-emoji';
 import { searchSvgInTwemoji } from './search';
 
-export function findRandomEmoji(): string {
+export function findRandomEmoji(previous?: string): string {
   const searched = searchSvgInTwemoji(random().emoji);
-  if (searched !== undefined) {
+  if (searched !== undefined && previous !== searched) {
     return searched;
   }
-  return findRandomEmoji();
+  return findRandomEmoji(previous);
 }
