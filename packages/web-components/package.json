@@ -23,7 +23,8 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^2.2.7",
+    "twemoji": "^13.1.0"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^6.3.7",
@@ -46,6 +47,7 @@
     "@types/react-dom": "^17.0.9",
     "@types/tailwindcss": "^2.2.1",
     "@types/testing-library__jest-dom": "^5.14.1",
+    "@types/twemoji": "^12.1.2",
     "autoprefixer": "^10.3.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
