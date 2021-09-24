@@ -11,6 +11,7 @@ export type TopProps = {
   repositoryLink: string;
   contactLink: string;
   footerText: string;
+  emoji: string;
 } & SnsLinksProps;
 
 export function Top({
@@ -18,11 +19,12 @@ export function Top({
   repositoryLink,
   contactLink,
   footerText,
+  emoji,
   ...snsLinkProps
 }: TopProps): JSX.Element {
   return (
     <div className="flex flex-col md:min-h-screen">
-      <Header />
+      <Header emoji={emoji} />
       <Section>
         <RoundedIcon ImageComponent={ImageComponent} />
       </Section>

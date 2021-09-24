@@ -10,16 +10,11 @@ exports[`Top page should be matched snapshot 1`] = `
         <header
           class="pt-4"
         >
-          <div
-            class="h-6"
-          >
-            <svg
-              class="w-full h-full"
-              data-jest-file-name="party-face.svg"
-              data-jest-svg-name="party-face"
-              data-testid="party-face"
-            />
-          </div>
+          <img
+            alt="header logo"
+            class="w-full h-6"
+            src="https://twemoji.maxcdn.com/v/latest/svg/1f44d.svg'"
+          />
         </header>
         <section
           class="max-w-full pt-8"
@@ -55,7 +50,7 @@ exports[`Top page should be matched snapshot 1`] = `
             NAME
           </h2>
           <p
-            class="flex justify-center pt-2 font-serif"
+            class="flex justify-center pt-2 px-8 text-center font-serif"
           >
             KAORU
           </p>
@@ -69,7 +64,7 @@ exports[`Top page should be matched snapshot 1`] = `
             JOB
           </h2>
           <p
-            class="flex justify-center pt-2 "
+            class="flex justify-center pt-2 px-8 text-center "
           >
             Front End Developer
           </p>
@@ -83,7 +78,7 @@ exports[`Top page should be matched snapshot 1`] = `
             SKILLS
           </h2>
           <p
-            class="flex justify-center pt-2 "
+            class="flex justify-center pt-2 px-8 text-center "
           >
             React, Vue.js, TypeScript, SCSS, HTML
           </p>
