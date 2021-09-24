@@ -1,9 +1,18 @@
 import Head from 'next/head';
 import { Top } from '@web/components/src/components/templates/top';
+import { useRandomEmoji } from '@web/components/src/utils/emoji/hooks';
 import { Icon } from '@/components/next-image';
 import { twitterId } from '@/utils/twitter';
 
-export default function Home(): JSX.Element {
+type HomeProps = {
+  overwriteEmoji?: string;
+};
+
+// @swc/jest can't work mock in jest, can be fixed emoji
+// @link https://github.com/swc-project/jest/issues/14
+export default function Home({ overwriteEmoji }: HomeProps): JSX.Element {
+  const randomEmoji = useRandomEmoji();
+  const emoji = overwriteEmoji ?? randomEmoji;
   return (
     <div>
       <Head>
@@ -14,10 +23,11 @@ export default function Home(): JSX.Element {
         <meta property="og:image" content="https://www.kkkaoru.net/ogp.png" />
         <meta name="twitter:site" content={`@${twitterId}`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href={emoji} />
       </Head>
       <main>
         <Top
+          emoji={emoji}
           ImageComponent={Icon}
           twitterId={twitterId}
           githubId="kkkaoru"

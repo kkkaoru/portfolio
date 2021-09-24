@@ -16,24 +16,30 @@
     "lint-staged": "lint-staged",
     "tsc": "tsc --noEmit",
     "watch:jest": "jest --watch",
-    "test": "jest"
+    "test": "jest",
+    "preinstall": "typesync"
   },
   "dependencies": {
     "@web/components": "workspace:*",
     "next": "11.1.0",
+    "node-emoji": "^1.11.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^2.2.7",
+    "twemoji-parser": "^13.1.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^5.5.0",
     "@swc/core": "^1.2.84",
     "@swc/jest": "^0.2.2",
     "@testing-library/react": "^12.0.0",
+    "@testing-library/react-hooks": "^7.0.2",
     "@types/eslint": "^7.2.13",
     "@types/jest": "^27.0.0",
+    "@types/node-emoji": "^1.8.1",
     "@types/prettier": "^2.3.2",
     "@types/react": "17.0.17",
+    "@types/react-dom": "17.0.2",
     "@types/tailwindcss": "^2.2.1",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "autoprefixer": "^10.3.2",
@@ -58,6 +64,7 @@
     "postcss": "^8.3.6",
     "prettier": "^2.3.2",
     "svg-jest": "^1.0.1",
-    "typescript": "4.3.5"
+    "typescript": "4.3.5",
+    "typesync": "^0.8.0"
   }
 }
